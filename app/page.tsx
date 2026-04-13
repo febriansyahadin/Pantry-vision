@@ -2,12 +2,12 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white relative overflow-hidden flex flex-col items-center justify-center p-8 text-center">
       
-      {/* Background Decor - Efek Grid */}
+      {/* Background*/}
       <div className="absolute inset-0 z-0 opacity-[0.03]" 
         style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '40px 40px' }}>
       </div>
 
-      {/* Background Decor - Efek Cahaya Biru */}
+      {/* Background*/}
       <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-blue-100 rounded-full blur-[120px] opacity-50 z-0"></div>
       <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-blue-50 rounded-full blur-[120px] opacity-50 z-0"></div>
 
@@ -32,7 +32,7 @@ export default function LandingPage() {
             Mulai Pemindaian
           </a>
           <a 
-            href="https://github.com" 
+            href="https://github.com/Nagasi77/Pantry-vision.git" 
             className="px-10 py-5 bg-white text-gray-900 border border-gray-200 font-bold rounded-2xl hover:bg-gray-50 transition-all text-lg"
           >
             Lihat Dokumentasi
