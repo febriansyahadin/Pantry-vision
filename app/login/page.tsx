@@ -86,17 +86,19 @@ export default function Home() {
       {/* RIGHT - HOMEPAGE */}
       <div className="hidden md:flex w-1/2 bg-gray-50 items-center justify-center">
         
-        <div className="text-center px-10">
-          
-          <div className="w-16 h-16 bg-blue-600 rounded-2xl mx-auto mb-6"></div>
+        <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-blue-50 rounded-full blur-[120px] opacity-50 z-0"></div>
+
+        <div className="relative z-10 flex flex-col items-center">
+            <div className="w-20 h-20 bg-gray-900 rounded-[2rem] mb-10 flex items-center justify-center shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
+            <div className="w-8 h-8 bg-blue-500 rounded-lg animate-pulse"></div>
+        </div> 
 
           <h1 className="text-5xl font-bold">
             Pantry<span className="text-blue-600">Vision.</span>
           </h1>
 
           <p className="text-gray-600 mt-4 max-w-md mx-auto">
-            Mendeteksi kesegaran buah dengan Computer Vision.
-            Dibangun dengan metodologi <span className="font-semibold">PULP</span>.
+            Mendeteksi kesegaran buah dengan Computer Vision. Dibangun dengan metodologi <span className="font-semibold">PULP</span>.untuk hasil prediksi yang presisi.
           </p>
 
           <div className="mt-6 flex gap-4 justify-center">
