@@ -38,7 +38,7 @@ export default function DashboardPage() {
           <a href="/scan" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
             <span className="mr-3">Scan</span> 
           </a>
-          <a href="#" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
+          <a href="/riwayat" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
             <span className="mr-3">Riwayat Scan</span> 
           </a>
           
